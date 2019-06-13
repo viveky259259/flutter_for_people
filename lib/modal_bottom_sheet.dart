@@ -14,7 +14,8 @@ class _ModalBottomSheetExampleState extends State<ModalBottomSheetExample> {
         alignment: Alignment.center,
         child: Text("MODAL BOTTOM SHEET EXAMPLE"),
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton.extended(
+        label: Text("Click me"),
         onPressed: () {
           showModalBottomSheet(
               context: context,
@@ -47,7 +48,7 @@ class _ModalBottomSheetExampleState extends State<ModalBottomSheetExample> {
                 );
               });
         },
-        child: Icon(Icons.open_with),
+        icon: Icon(Icons.open_with),
       ),
     );
   }
