@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'alert_dialog.dart';
 import 'modal_bottom_sheet.dart';
 
 void main() => runApp(MyApp());
@@ -22,8 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ModalBottomSheetExample(),
+      home: AlertDialogExample(),
     );
   }
 }
-
