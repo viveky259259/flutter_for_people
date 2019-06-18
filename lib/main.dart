@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'age_calculator.dart';
 import 'alert_dialog.dart';
 import 'modal_bottom_sheet.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: AlertDialogExample(),
+      home: AgeCalculator(),
     );
   }
 }
