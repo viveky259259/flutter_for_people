@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_cupertino_date_picker: ^0.8.0
   intl: ^0.15.8
+  http:
 
 dev_dependencies:
   flutter_test:
