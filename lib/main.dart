@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_for_people/ar/ar_test_ios_only.dart';
+import 'package:flutter_for_people/ar/arkit_test_.dart';
 import 'package:flutter_for_people/http_.dart';
 import 'package:flutter_for_people/image_picker.dart';
 
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ImagePickerExample(),
+      home: ArkitTest2(),
     );
   }
 }
