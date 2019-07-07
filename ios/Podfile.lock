@@ -1,19 +1,25 @@
 PODS:
+  - arcore_plugin (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
   - image_picker_modern (0.0.1):
     - Flutter
 
 DEPENDENCIES:
+  - arcore_plugin (from `.symlinks/plugins/arcore_plugin/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
   - image_picker_modern (from `.symlinks/plugins/image_picker_modern/ios`)
 
 EXTERNAL SOURCES:
+  arcore_plugin:
+    :path: ".symlinks/plugins/arcore_plugin/ios"
   Flutter:
     :path: ".symlinks/flutter/ios"
   image_picker_modern:
     :path: ".symlinks/plugins/image_picker_modern/ios"
 
 SPEC CHECKSUMS:
+  arcore_plugin: ee2034691c40fc24a7eca190d5fdfe9c326d558e
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   image_picker_modern: 40bc7d164e23451a0417e302e514746a2b81c269
 

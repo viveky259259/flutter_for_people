@@ -28,6 +28,7 @@ dependencies:
   http:
   image_picker_modern: ^0.4.12+2
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
