@@ -26,6 +26,7 @@ dependencies:
   flutter_cupertino_date_picker: ^0.8.0
   intl: ^0.15.8
   http:
+  image_picker_modern: ^0.4.12+2
 
 dev_dependencies:
   flutter_test:
