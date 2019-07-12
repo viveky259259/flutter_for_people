@@ -1,0 +1,34 @@
+PODS:
+  - arcore_flutter_plugin (0.0.1):
+    - Flutter
+  - arkit_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - image_picker_modern (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - arcore_flutter_plugin (from `.symlinks/plugins/arcore_flutter_plugin/ios`)
+  - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - image_picker_modern (from `.symlinks/plugins/image_picker_modern/ios`)
+
+EXTERNAL SOURCES:
+  arcore_flutter_plugin:
+    :path: ".symlinks/plugins/arcore_flutter_plugin/ios"
+  arkit_plugin:
+    :path: ".symlinks/plugins/arkit_plugin/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  image_picker_modern:
+    :path: ".symlinks/plugins/image_picker_modern/ios"
+
+SPEC CHECKSUMS:
+  arcore_flutter_plugin: 59886964cab86408a05fd43442ca780a45ccdb87
+  arkit_plugin: bac4df15d3c0bcafd4acaf323acefdeee1ccf224
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  image_picker_modern: 40bc7d164e23451a0417e302e514746a2b81c269
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.6.1
