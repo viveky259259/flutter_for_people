@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_for_people/ar/ar_test_ios_only.dart';
-import 'package:flutter_for_people/ar/arkit_test_.dart';
-import 'package:flutter_for_people/http_.dart';
-import 'package:flutter_for_people/image_picker.dart';
-
-import 'age_calculator.dart';
-import 'alert_dialog.dart';
-import 'modal_bottom_sheet.dart';
+import 'package:flutter_for_people/expanded_example.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ArkitTest2(),
+      home: ExpandedExample(),
     );
   }
 }
