@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_for_people/expanded_example.dart';
+
+import 'grid/grid.ui.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ExpandedExample(),
+      home: GridUi(),
     );
   }
 }

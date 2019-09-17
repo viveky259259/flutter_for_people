@@ -26,9 +26,10 @@ dependencies:
   flutter_cupertino_date_picker: ^0.8.0
   intl: ^0.15.8
   http:
-  image_picker_modern: ^0.4.12+2
+#  image_picker_modern: ^0.4.12+2
   arkit_plugin: ^0.2.0+1
   arcore_flutter_plugin: ^0.0.2+2
+  get_it:
 
 
 dev_dependencies:
