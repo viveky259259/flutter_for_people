@@ -47,9 +47,6 @@ class _GridUiState extends State<GridUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Grid Test"),
-      ),
       body: Column(
         children: <Widget>[
           Text("Test kr"),

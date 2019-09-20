@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_for_people/hive/bloc/hive.bloc.dart';
+import 'package:flutter_for_people/hive/repository/hive.repository.dart';
 
-import 'grid/grid.ui.dart';
+import 'hive/hive.example.ui.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +25,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: GridUi(),
+      home: BlocProvider<HiveBloc>(
+          builder: (context) => HiveBloc(HiveRepository()),
+          child: HiveExampleUi()),
     );
   }
 }
