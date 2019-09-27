@@ -21,7 +21,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   flutter_cupertino_date_picker: ^0.8.0
-  intl: ^0.15.8
+  intl: ^0.16.0
   equatable:
   http:
   arkit_plugin: ^0.2.0+1
@@ -32,8 +32,9 @@ dependencies:
   hive: ^1.0.0
   hive_flutter:
   path_provider: ^1.2.0
-    
-    
+  syncfusion_flutter_gauges: ^1.0.0-beta
+
+
 
 
 dev_dependencies:
