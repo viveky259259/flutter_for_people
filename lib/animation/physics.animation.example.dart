@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 
-main() {
-  runApp(MaterialApp(home: PhysicsCardDragDemo()));
-}
-
-class PhysicsCardDragDemo extends StatelessWidget {
+class PhysicsAnimationExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
