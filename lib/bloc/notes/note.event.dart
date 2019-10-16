@@ -1,3 +1,6 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_for_people/bloc/notes/note.model.dart';
+
 class NoteEvent {}
 
 ///list of events
@@ -5,7 +8,16 @@ class NoteEvent {}
 
 class GetNotesEvent extends NoteEvent {}
 
-class AddNoteEvent extends NoteEvent {}
+class AddNoteEvent extends NoteEvent {
+  NoteModel noteModel;
+
+  AddNoteEvent(this.noteModel);
+}
+
+class OpenAddNoteUiEvent extends NoteEvent {
+  BuildContext context;
+  OpenAddNoteUiEvent(this.context);
+}
 
 class RemoveNoteEvent extends NoteEvent {}
 

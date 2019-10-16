@@ -17,6 +17,14 @@ class _NotesUiState extends State<NotesUi> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Notes"),
+        actions: <Widget>[
+          IconButton(
+            onPressed: () {
+              noteBloc.dispatch(OpenAddNoteUiEvent(context));
+            },
+            icon: Icon(Icons.add),
+          )
+        ],
       ),
       body: BlocBuilder<NoteBloc, NoteState>(
         bloc: noteBloc,
