@@ -23,6 +23,7 @@ class HiveBloc extends Bloc<HiveEvent, HiveState> {
 
       await hiveRepository.addModel(event.hiveModel);
       yield WriteCompleteState();
+      dispatch(ReadEvent());
     } else if (event is ReadEvent) {
       yield ReadingState();
       Map<dynamic, dynamic> a = hiveRepository.getModels();

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'animation/physics.animation.example.dart';
+import 'package:flutter_for_people/widgets/flip.card.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,10 +21,11 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: PhysicsAnimationExample()
-//      BlocProvider<HiveBloc>(
-//          builder: (context) => HiveBloc(HiveRepository()),
-//          child: HiveExampleUi()),
+        home: FlipCardExample()
+//        PhysicsAnimationExample()
+//          BlocProvider<HiveBloc>(
+//              builder: (context) => HiveBloc(HiveRepository()),
+//              child: HiveExampleUi()),
         );
   }
 }

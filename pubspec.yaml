@@ -33,6 +33,7 @@ dependencies:
   hive_flutter:
   path_provider: ^1.2.0
   syncfusion_flutter_gauges: ^1.0.0-beta
+  flip_card: ^0.4.3
 
 
 
