@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_for_people/widgets/flip.card.dart';
+
+import 'network_call/http.example.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: FlipCardExample()
+        home: HttpExample()
 //        PhysicsAnimationExample()
 //          BlocProvider<HiveBloc>(
 //              builder: (context) => HiveBloc(HiveRepository()),
