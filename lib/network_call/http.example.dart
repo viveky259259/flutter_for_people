@@ -75,6 +75,11 @@ class _HttpExampleState extends State<HttpExample> {
                   postCall();
                 },
                 child: Text('Post'),
+              ),
+              FlatButton.icon(
+                label: Text('Label'),
+                icon: Icon(Icons.add),
+                onPressed: () {},
               )
             ],
           )
