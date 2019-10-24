@@ -10,6 +10,7 @@ void main() {
         projectId: "YourProjectId",
         storageBucket: "YourStorageBucket");
   }
+
   fs.Firestore store = firestore();
   fs.CollectionReference ref = store.collection("messages");
 
