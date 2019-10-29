@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'network_call/http.example.dart';
+import 'package:flutter_for_people/packages/razor_pay.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: HttpExample()
+        home: RazorPayExample()
 //        PhysicsAnimationExample()
 //          BlocProvider<HiveBloc>(
 //              builder: (context) => HiveBloc(HiveRepository()),
