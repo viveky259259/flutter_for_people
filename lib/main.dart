@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_for_people/packages/razor_pay.dart';
+
+import 'hive/newexample/person.ui.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: RazorPayExample()
+        home: HiveExampleUi()
+//        RazorPayExample()
 //        PhysicsAnimationExample()
 //          BlocProvider<HiveBloc>(
 //              builder: (context) => HiveBloc(HiveRepository()),

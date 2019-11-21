@@ -39,7 +39,9 @@ dependencies:
   image_picker: ^0.6.1+8
   multi_image_picker: ^4.5.3
   razorpay_flutter: ^1.1.2
-  fluttertoast: ^3.0.4
+  
+  clippy_flutter: ^1.1.0
+
 
 
 

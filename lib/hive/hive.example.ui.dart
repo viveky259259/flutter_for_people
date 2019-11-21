@@ -4,7 +4,6 @@ import 'package:flutter_for_people/hive/bloc/hive.bloc.dart';
 import 'package:flutter_for_people/hive/event/hive.event.dart';
 import 'package:flutter_for_people/hive/hive.model.dart';
 import 'package:flutter_for_people/hive/state/hive.state.dart';
-import 'package:hive/hive.dart';
 
 class HiveExampleUi extends StatefulWidget {
   @override
@@ -12,8 +11,6 @@ class HiveExampleUi extends StatefulWidget {
 }
 
 class _HiveExampleUiState extends State<HiveExampleUi> {
-  Box _box;
-
   @override
   void initState() {
     super.initState();

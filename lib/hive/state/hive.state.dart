@@ -2,7 +2,10 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter_for_people/hive/hive.model.dart';
 
 class HiveState extends Equatable {
-  HiveState([List props = const []]) : super(props);
+  HiveState([List props = const []]);
+
+  @override
+  List<Object> get props => null;
 }
 
 class InitState extends HiveState {

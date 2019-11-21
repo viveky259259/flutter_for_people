@@ -2,7 +2,11 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter_for_people/hive/hive.model.dart';
 
 class HiveEvent extends Equatable {
-  HiveEvent([List props = const []]) : super(props);
+  HiveEvent([List props = const []]);
+
+  @override
+  // TODO: implement props
+  List<Object> get props => null;
 }
 
 class WriteEvent extends HiveEvent {
