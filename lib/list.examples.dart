@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_for_people/animation/physics.animation.example.dart';
 import 'package:flutter_for_people/http_.dart';
-import 'package:flutter_for_people/image_picker.dart';
 import 'package:flutter_for_people/modal_bottom_sheet.dart';
-import 'package:flutter_for_people/packages/multi.imagepicker.example.dart';
 
 class ExamplesList extends StatelessWidget {
   @override
@@ -17,15 +15,15 @@ class ExamplesList extends StatelessWidget {
           ListTile(
             title: Text('Image Picker'),
             onTap: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => ImagePickerExample()));
+//              Navigator.of(context).push(MaterialPageRoute(
+//                  builder: (context) => ImagePickerExample()));
             },
           ),
           ListTile(
             title: Text('Multi Image Picker'),
             onTap: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => MultiImagePickerExample()));
+//              Navigator.of(context).push(MaterialPageRoute(
+//                  builder: (context) => MultiImagePickerExample()));
             },
           ),
           ListTile(

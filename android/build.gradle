@@ -16,6 +16,10 @@ allprojects {
         google()
         jcenter()
     }
+    configurations.all {
+        resolutionStrategy.force "androidx.cursoradapter:cursoradapter:1.0.0"
+        resolutionStrategy.force "androidx.loader:loader:1.0.0"
+    }
 }
 
 rootProject.buildDir = '../build'
