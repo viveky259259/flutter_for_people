@@ -1,17 +1,5 @@
 PODS:
-  - BSGridCollectionViewLayout (1.2.5)
-  - BSImagePicker (2.10.3):
-    - BSGridCollectionViewLayout (= 1.2.5)
-    - BSImageView (= 1.0.3)
-  - BSImageView (1.0.3)
   - Flutter (1.0.0)
-  - fluttertoast (0.0.2):
-    - Flutter
-  - image_picker (0.0.1):
-    - Flutter
-  - multi_image_picker (4.5.8):
-    - BSImagePicker (~> 2.10.3)
-    - Flutter
   - path_provider (0.0.1):
     - Flutter
   - razorpay-pod (1.1.4)
@@ -21,45 +9,27 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
-  - image_picker (from `.symlinks/plugins/image_picker/ios`)
-  - multi_image_picker (from `.symlinks/plugins/multi_image_picker/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - BSGridCollectionViewLayout
-    - BSImagePicker
-    - BSImageView
+  https://github.com/CocoaPods/Specs.git:
     - razorpay-pod
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  fluttertoast:
-    :path: ".symlinks/plugins/fluttertoast/ios"
-  image_picker:
-    :path: ".symlinks/plugins/image_picker/ios"
-  multi_image_picker:
-    :path: ".symlinks/plugins/multi_image_picker/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   razorpay_flutter:
     :path: ".symlinks/plugins/razorpay_flutter/ios"
 
 SPEC CHECKSUMS:
-  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
-  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
-  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
-  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
-  multi_image_picker: eaf7e916c0b1aeee0f2b37670f0d98db3a2f26bd
   path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
   razorpay-pod: 592624080178be4c6121216508e7857fc245f4b8
-  razorpay_flutter: 0ca3b03963648a212711715b6eec381bb794fc48
+  razorpay_flutter: 2af1a15499076b1798d81bc35e4837d467b2daac
 
 PODFILE CHECKSUM: 1de887d8166a06b8b7b818c43fc176236b5ec882
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
