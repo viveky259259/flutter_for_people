@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'hive/newexample/person.ui.dart';
+import 'list.examples.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: HiveExampleUi()
+        home: ExamplesList()
+//        HiveExampleUi()
 //        RazorPayExample()
 //        PhysicsAnimationExample()
 //          BlocProvider<HiveBloc>(
