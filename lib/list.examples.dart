@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_for_people/animation/physics.animation.example.dart';
 import 'package:flutter_for_people/http_.dart';
 import 'package:flutter_for_people/modal_bottom_sheet.dart';
+import 'package:flutter_for_people/randomuis/random.uilist.dart';
 import 'package:flutter_for_people/theory/theory_list.dart';
 
 class ExamplesList extends StatelessWidget {
@@ -18,6 +19,13 @@ class ExamplesList extends StatelessWidget {
             onTap: () {
               Navigator.of(context).push(
                   MaterialPageRoute(builder: (context) => TheoryExample()));
+            },
+          ),
+          ListTile(
+            title: Text("Random Uis"),
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => RandomUis()));
             },
           ),
           ListTile(
