@@ -41,6 +41,7 @@ dependencies:
   razorpay_flutter: ^1.1.2
   
   clippy_flutter: ^1.1.0
+  sqlcool: ^4.2.0
 
 
 

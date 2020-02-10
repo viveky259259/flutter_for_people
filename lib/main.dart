@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_for_people/error_recreation/Material.localization.error.dart';
+import 'package:flutter_for_people/error_recreation/error.recreation.list.dart';
 
 import 'hive/newexample/person.ui.dart';
 import 'list.examples.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MaterialLocalizationError());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: ExamplesList()
+        home: MaterialLocalizationError()
 //        HiveExampleUi()
 //        RazorPayExample()
 //        PhysicsAnimationExample()

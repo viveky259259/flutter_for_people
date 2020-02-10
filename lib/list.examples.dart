@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_for_people/animation/physics.animation.example.dart';
+import 'package:flutter_for_people/error_recreation/error.recreation.list.dart';
 import 'package:flutter_for_people/http_.dart';
 import 'package:flutter_for_people/modal_bottom_sheet.dart';
 import 'package:flutter_for_people/randomuis/random.uilist.dart';
 import 'package:flutter_for_people/theory/theory_list.dart';
-
+import 'package:flutter_for_people/databases/sqlcool/main.dart' as SQLCool;
 class ExamplesList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -26,6 +27,20 @@ class ExamplesList extends StatelessWidget {
             onTap: () {
               Navigator.of(context).push(
                   MaterialPageRoute(builder: (context) => RandomUis()));
+            },
+          ),
+          ListTile(
+            title: Text("Errors"),
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => Errors()));
+            },
+          ),
+          ListTile(
+            title: Text("Databases"),
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => SQLCool.MyApp()));
             },
           ),
           ListTile(
