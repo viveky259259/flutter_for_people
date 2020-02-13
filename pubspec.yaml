@@ -44,7 +44,7 @@ dependencies:
   sqlcool: ^4.2.0
   #pagination
   pagination: ^0.1.0
-
+  faker:
 
 
 
