@@ -45,6 +45,8 @@ dependencies:
   #pagination
   pagination: ^0.1.0
   faker:
+  get: ^1.10.1
+
 
 
 

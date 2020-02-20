@@ -64,9 +64,9 @@ class Colored extends CustomPainter {
   bool shouldRepaint(CustomPainter oldDelegate) => true;
 }
 
-void main() => runApp(MainApp());
+void main() => runApp(SolidoExampleNoWidget());
 
-class MainApp extends StatelessWidget {
+class SolidoExampleNoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
