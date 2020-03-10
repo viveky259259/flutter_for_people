@@ -38,7 +38,7 @@ class SecondRoute extends StatelessWidget {
       body: Center(
         child: RaisedButton(
           onPressed: () {
-            Get.offNamed(page)
+            Get.offNamed("/");
           },
           child: Text('Go back!'),
         ),
@@ -69,11 +69,12 @@ class Router {
             transition: Transition.rotate,
             page: Scaffold(
               body:
-              Center(child: Text('No route defined for ${settings.name}')),
+                  Center(child: Text('No route defined for ${settings.name}')),
             ));
     }
   }
 }
+
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -83,7 +84,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Splash"),),
+      appBar: AppBar(
+        title: Text("Splash"),
+      ),
     );
   }
 }
@@ -97,10 +100,13 @@ class _ChatState extends State<Chat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Chat"),),
+      appBar: AppBar(
+        title: Text("Chat"),
+      ),
     );
   }
 }
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -110,8 +116,9 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Home"),),
+      appBar: AppBar(
+        title: Text("Home"),
+      ),
     );
   }
 }
-
