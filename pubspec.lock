@@ -49,14 +49,14 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6"
+    version: "1.2.2"
   build_config:
     dependency: transitive
     description:
       name: build_config
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1+1"
+    version: "0.4.2"
   build_daemon:
     dependency: transitive
     description:
@@ -70,21 +70,21 @@ packages:
       name: build_resolvers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.7"
+    version: "1.2.1"
   build_runner:
     dependency: "direct dev"
     description:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.0"
+    version: "1.8.0"
   build_runner_core:
     dependency: transitive
     description:
       name: build_runner_core
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "4.5.2"
   built_collection:
     dependency: transitive
     description:
@@ -99,6 +99,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "6.7.1"
+  characters:
+    dependency: transitive
+    description:
+      name: characters
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.1"
   charcode:
     dependency: transitive
     description:
@@ -169,6 +176,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.10"
+  dartx:
+    dependency: transitive
+    description:
+      name: dartx
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   equatable:
     dependency: "direct main"
     description:
@@ -304,21 +318,21 @@ packages:
       name: hive
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0"
+    version: "1.4.1+1"
   hive_flutter:
     dependency: "direct main"
     description:
       name: hive_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.1"
+    version: "0.3.0+2"
   hive_generator:
     dependency: "direct dev"
     description:
       name: hive_generator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.1"
+    version: "0.7.0+2"
   html:
     dependency: transitive
     description:
@@ -473,13 +487,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.1"
-  pointycastle:
-    dependency: transitive
-    description:
-      name: pointycastle
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
   pool:
     dependency: transitive
     description:
@@ -603,7 +610,7 @@ packages:
       name: stream_transform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.19"
+    version: "0.0.20"
   string_scanner:
     dependency: transitive
     description:
@@ -639,6 +646,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.11"
+  time:
+    dependency: transitive
+    description:
+      name: time
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.0"
   timing:
     dependency: transitive
     description:

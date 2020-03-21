@@ -8,6 +8,9 @@ part of 'hive.model.dart';
 
 class HiveModelAdapter extends TypeAdapter<HiveModel> {
   @override
+  final typeId = 2;
+
+  @override
   HiveModel read(BinaryReader reader) {
     var numOfFields = reader.readByte();
     var fields = <int, dynamic>{

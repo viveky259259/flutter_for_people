@@ -10,7 +10,7 @@ class HiveBloc extends Bloc<HiveEvent, HiveState> {
   final HiveRepository hiveRepository;
 
   HiveBloc(this.hiveRepository) : super() {
-    Hive.registerAdapter(HiveModelAdapter(), 0);
+    Hive.registerAdapter(HiveModelAdapter());
   }
 
   @override

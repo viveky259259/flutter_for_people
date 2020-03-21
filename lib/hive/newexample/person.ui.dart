@@ -18,7 +18,7 @@ class _HiveExampleUiState extends State<HiveExampleUi> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Hive.registerAdapter(PersonModelAdapter(), 0);
+    Hive.registerAdapter(PersonModelAdapter());
     _openBox();
   }
 
