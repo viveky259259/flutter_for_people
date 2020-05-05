@@ -1,3 +1,7 @@
+DUE TO OVER EXPERIMENT, THIS MAY BREAK..
+CREATE ISSUE IF YOU FIND ONE.
+PR IS ALAWAYS ON IF ANYONE HAVE TO ADD ANY NEW THING IN THIS REPO
+
 # flutter_for_people
 
 A new Flutter application for beginners
